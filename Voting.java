@@ -68,4 +68,8 @@ public class Voting {
             System.out.println("Voting in anonymous type.");
         }
     }
+
+    public String getQuestion() {
+        return question;
+    }
 }

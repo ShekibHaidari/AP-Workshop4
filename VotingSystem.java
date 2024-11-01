@@ -58,8 +58,8 @@ public class VotingSystem {
         Voting voting = getVoting(index);
         if (voting != null) {
             voting.vote(voter);
-        } else {
-            System.out.println("not found.");
+        } else {DS
+            System.out.println("    not found.");
         }
     }
 }
